@@ -44,6 +44,9 @@ Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'MattesGroeger/vim-bookmarks'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
